@@ -5,7 +5,7 @@ pipeline {
         stage('Hello') {
             steps {
                 git 'https://github.com/davidoyetayo/ex20.git'
-                bat 'githubjenkins.py'
+                bat 'dir'
             }
         }
     }
