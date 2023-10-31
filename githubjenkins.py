@@ -1,4 +1,4 @@
 def money():
-    print("money is very good")
+    print("money is not very good")
 
 money()
