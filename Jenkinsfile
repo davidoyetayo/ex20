@@ -8,5 +8,10 @@ pipeline {
                 bat 'dir'
             }
         }
+        stage('Bye') {
+            steps {
+                bat 'githubjenkins.py'
+            }
+        }
     }
 }
